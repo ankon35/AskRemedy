@@ -1,4 +1,4 @@
-# 🤖 AskRemedy
+# 🩺 AskRemedy
 
 **AskRemedy** is an AI-powered health assistant that suggests potential diseases based on early symptoms and provides general treatment recommendations. It combines large language models, Retrieval-Augmented Generation (RAG), and user-friendly UI to deliver quick and insightful medical guidance.
 
