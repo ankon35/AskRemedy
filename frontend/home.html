@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medical Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    footer {
+      width: 100%;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9rem;
+      background-color: transparent;
+      color: #555;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="chat-container">
+      <h1>AskRemedy 🩺</h1>
+      <p style="font-size: 1.1rem; color: #555;">
+        Your go-to assistant for quick health insights and everyday wellness tips.
+      </p>
+      <textarea id="question" placeholder="Enter your medical question here..."></textarea>
+      <button onclick="askQuestion()">Ask</button>
+
+      <div id="answer-box">
+        <h3 id="answerHeading" style="display: none;">Answer:</h3>
+        <p id="answer" style="display: none;"></p>
+        <small id="source"></small>
+      </div>
+
+      <div id="loader" class="loader" style="display: none;"></div>
+    </div>
+  </div>
+
+  <footer>
+    © All rights reserved <a href="https://ankon35.github.io/Ankon-Porfolio/" target="_blank"
+      style="color: #27ae60; text-decoration: underline;">Ankon Hossain</a>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
