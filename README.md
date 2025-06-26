@@ -22,7 +22,7 @@
 | Frontend    | HTML, CSS, JavaScript                         |
 | Backend     | Python, Flask                                 |
 | AI Model    | Gemini API, LangChain, RAG (Retrieval-Augmented Generation) |
-| Other Tools | OpenAI / Gemini integrations, Web APIs        |
+| Other Tools | Gemini integrations, Web APIs        |
 
 ---
 
