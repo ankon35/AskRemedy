@@ -20,7 +20,7 @@ documents = loader.load()
 print(f"✅ Loaded {len(documents)} pages from PDF.")
 
 # Split into chunks for embeddings
-splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 chunks = splitter.split_documents(documents)
 print(f"✅ Split into {len(chunks)} chunks.")
 
